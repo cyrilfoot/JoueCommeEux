@@ -6,7 +6,7 @@ description: Données personnelles et cookies sur Joue comme eux.
 
 **Rien.** Ce site ne dépose aucun cookie, n'utilise aucun outil de mesure d'audience et ne vous demande aucune information personnelle.
 
-Comme tout site web, l'hébergeur (GitHub) peut enregistrer des données techniques de connexion, comme l'adresse IP, pour des raisons de sécurité. Ces données sont traitées par GitHub selon sa propre politique de confidentialité.
+Comme tout site web, l'hébergeur (Netlify) peut enregistrer des données techniques de connexion, comme l'adresse IP, pour des raisons de sécurité. Ces données sont traitées par Netlify selon sa propre politique de confidentialité.
 
 ## Liens vers des sites marchands
 

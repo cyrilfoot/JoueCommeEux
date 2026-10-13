@@ -12,7 +12,7 @@ Contact : par message privé sur les réseaux sociaux de la chaîne.
 
 ## Hébergement
 
-Le site est hébergé par **GitHub, Inc.** (service GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.
+Le site est hébergé par **Netlify, Inc.**, 101 2nd Street, Suite 575, San Francisco, CA 94105, États-Unis.
 
 ## Propriété intellectuelle
 
