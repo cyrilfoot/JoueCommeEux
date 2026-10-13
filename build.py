@@ -114,6 +114,7 @@ def page(title, description, path, content, *, kind="website", extra_head=""):
 <meta property="og:site_name" content="{esc(SITE['title'])}">
 <meta property="og:locale" content="fr_FR">
 <meta name="theme-color" content="#0e3b2e">
+{('<meta name="google-site-verification" content="' + esc(SITE['google_verification']) + '">') if SITE.get('google_verification') else ''}
 <link rel="icon" href="{url('favicon.svg')}" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="{esc(SITE['title'])}" href="{url('feed.xml')}">
 <link rel="stylesheet" href="{url('style.css')}?v={CSS_VERSION}">
