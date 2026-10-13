@@ -13,13 +13,9 @@ Pour qu'ils protègent vraiment, encore faut-il les choisir correctement.
 
 Le protège-tibia est cousu à une chaussette qui couvre aussi les malléoles, les petits os de la cheville. C'est le modèle le plus protecteur et le plus facile à enfiler, idéal pour les **enfants et les débutants**. Il tient bien en place, mais il est un peu plus chaud et plus encombrant.
 
-[[amazon: protege tibia enfant avec protection cheville | Voir les protège-tibias avec cheville sur Amazon]]
-
 ### 2. À glisser (« slip-in »)
 
 Une simple coque que l'on glisse dans la chaussette, souvent maintenue par un manchon de compression. Très légère, c'est le choix de nombreux **joueurs confirmés** qui veulent sentir le moins de gêne possible. Elle protège moins les côtés et la cheville.
-
-[[amazon: protege tibia slip in adulte | Voir les protège-tibias à glisser sur Amazon]]
 
 ### 3. Avec manchon ou attache
 
@@ -40,6 +36,14 @@ Le protège-tibia doit couvrir le tibia **de quelques centimètres au-dessus de 
 ## Entretien : le détail qu'on oublie
 
 La transpiration rend vite les protège-tibias malodorants. Après chaque match, sortez-les du sac et laissez-les sécher à l'air libre. Lavez régulièrement les manchons et les chaussettes intégrées en suivant l'étiquette. Ils dureront bien plus longtemps.
+
+## Notre sélection
+
+[[produit: Puma King, protège-tibias avec chevilles | protège-tibias Puma King chevilles | Le modèle avec protection des malléoles, idéal pour un enfant ou un débutant : il s'enfile comme une chaussette et reste bien en place.]]
+
+[[produit: Nike Mercurial Lite | protège-tibias Nike Mercurial Lite | Une coque légère à glisser dans la chaussette, avec un manchon pour la maintenir. Le choix des joueurs qui veulent sentir le moins de gêne possible.]]
+
+[[produit: G-Form Pro-S Vento | protège-tibias G-Form Pro-S Vento | Une protection souple intégrée à un manchon, qui épouse la jambe et durcit au choc. Un compromis confortable entre protection et liberté de mouvement.]]
 
 ## En résumé
 

@@ -25,8 +25,6 @@ En France, les tailles suivent en général les catégories d'âge :
 
 Le plus simple : demandez à l'éducateur du club quelle taille est utilisée à l'entraînement. Votre enfant s'entraînera à la maison avec le même ballon qu'au club.
 
-[[amazon: ballon de foot taille 4 | Voir les ballons taille 4 sur Amazon]]
-
 ## Ballon d'entraînement ou ballon de match ?
 
 - **Ballon d'entraînement** : plus résistant, il supporte le synthétique, le bitume et les frappes contre un mur. C'est le bon choix pour jouer tous les jours.
@@ -34,7 +32,11 @@ Le plus simple : demandez à l'éducateur du club quelle taille est utilisée à
 
 Pour un jeune joueur, un bon ballon d'entraînement à la bonne taille vaut mieux qu'un ballon de match haut de gamme.
 
-[[amazon: ballon de foot taille 5 entrainement | Voir les ballons taille 5 sur Amazon]]
+## Notre sélection
+
+[[produit: Nike Pitch (tailles 3, 4 et 5) | ballon Nike Pitch | Le ballon d'entraînement classique de Nike, décliné dans les trois tailles. Robuste, il convient pour jouer au parc, au city ou contre un mur. Choisissez la taille selon l'âge.]]
+
+[[produit: Puma Orbita (gamme entraînement et match) | ballon Puma Orbita | Une gamme déclinée en plusieurs versions, de l'entraînement au match. Un bon choix pour un joueur de club qui veut un toucher plus proche de celui des matchs.]]
 
 ## Le futsal, un cas à part
 

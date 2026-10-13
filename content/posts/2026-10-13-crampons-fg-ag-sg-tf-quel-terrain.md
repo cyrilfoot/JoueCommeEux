@@ -24,15 +24,11 @@ C'est la plus répandue. Les crampons, moulés et plutôt longs, accrochent bien
 
 **Attention :** sur un synthétique, les crampons FG s'enfoncent mal et accrochent trop. Cela fatigue les articulations et use la semelle plus vite. Certaines marques précisent d'ailleurs qu'elles ne couvrent pas cet usage.
 
-[[amazon: chaussures de foot FG homme | Voir les chaussures FG sur Amazon]]
-
 ## AG et MG : pour le synthétique
 
 Le gazon synthétique est devenu la norme dans beaucoup de clubs amateurs. Les semelles **AG** ont des crampons plus courts et plus nombreux, souvent creux, qui répartissent mieux la pression sur ce type de surface.
 
 Les semelles **MG** sont un compromis : elles fonctionnent correctement sur herbe et sur synthétique. C'est une bonne option si vous alternez entre les deux, ou pour un enfant qui joue sur différents terrains selon les matchs.
-
-[[amazon: chaussures de foot MG multi terrain | Voir les chaussures MG sur Amazon]]
 
 ## SG : pour les terrains gras
 
@@ -44,11 +40,19 @@ C'est une paire de « spécialiste » : utile l'hiver sur herbe détrempée, à 
 
 Les semelles **TF** sont couvertes de petits picots en caoutchouc. Elles sont parfaites sur les terrains de foot à cinq, les synthétiques anciens et ras, ou le stabilisé. Elles sont aussi plus confortables pour s'entraîner sur des surfaces dures.
 
-[[amazon: chaussures de foot TF turf | Voir les chaussures TF sur Amazon]]
-
 ## IN / IC : en salle
 
 Semelle plate, en gomme qui ne marque pas le sol : c'est la chaussure du futsal et du gymnase. Inutile en extérieur, où elle n'offre aucune accroche.
+
+## Notre sélection
+
+Trois modèles d'entrée et de milieu de gamme, faciles à trouver, un pour chaque grand type de terrain. Vérifiez toujours la pointure et le sigle de la semelle sur la fiche avant de commander.
+
+[[produit: adidas Copa Pure III Club FG/MG | adidas Copa Pure III Club FG/MG | Pour jouer surtout sur herbe naturelle, avec un passage de temps en temps sur synthétique. Une semelle polyvalente et une gamme pensée pour débuter.]]
+
+[[produit: Puma Future 7 Play MG | Puma Future 7 Play MG | La semelle multi-terrains de Puma : un bon choix pour un enfant ou un joueur qui alterne entre herbe et synthétique selon les matchs.]]
+
+[[produit: Puma Ultra Play TT | Puma Ultra Play TT | Une semelle à petits picots pour le five, les synthétiques ras et les terrains durs. Confortable pour s'entraîner sur ces surfaces.]]
 
 ## En résumé : comment choisir en 30 secondes
 
