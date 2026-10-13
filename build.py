@@ -6,6 +6,7 @@ Usage : python3 build.py
 - Pages    : content/pages/slug.md
 - Un article avec `draft: true` ou une date future n'est pas publié.
 - Lien affilié : [[amazon: mots-clés de recherche | Texte du bouton]]
+- Fiche produit : [[produit: Nom du modèle | recherche Amazon exacte | Pourquoi ce choix]]
 """
 import datetime as dt
 import html
@@ -58,22 +59,42 @@ AFF_RE = re.compile(r"\[\[amazon:\s*(.+?)\s*\|\s*(.+?)\s*\]\]")
 
 
 def amazon_link(query: str, label: str) -> str:
-    params = {"k": query}
-    if SITE.get("amazon_tag"):
-        params["tag"] = SITE["amazon_tag"]
-    href = "https://www.amazon.fr/s?" + urllib.parse.urlencode(params)
+    href = amazon_href(query)
     return (f'<p class="aff"><a class="aff-btn" href="{esc(href)}" '
             f'rel="sponsored nofollow noopener" target="_blank">{esc(label)}'
             f'<span class="aff-tag"> (lien affilié, nouvel onglet)</span></a></p>')
 
 
+PROD_RE = re.compile(r"\[\[produit:\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\]\]")
+
+
+def amazon_href(query: str) -> str:
+    if query.startswith("https://www.amazon.fr/"):
+        m = re.search(r"/dp/([A-Z0-9]{10})", query)
+        base = f"https://www.amazon.fr/dp/{m.group(1)}" if m else query.split("?")[0]
+        return base + (f"?tag={SITE['amazon_tag']}" if SITE.get("amazon_tag") else "")
+    params = {"k": query}
+    if SITE.get("amazon_tag"):
+        params["tag"] = SITE["amazon_tag"]
+    return "https://www.amazon.fr/s?" + urllib.parse.urlencode(params)
+
+
+def product_card(name: str, query: str, why: str) -> str:
+    return (f'<div class="prod"><p class="prod-name">{esc(name)}</p>'
+            f'<p class="prod-why">{esc(why)}</p>'
+            f'<p class="aff"><a class="aff-btn" href="{esc(amazon_href(query))}" '
+            f'rel="sponsored nofollow noopener" target="_blank">Voir le prix sur Amazon'
+            f'<span class="aff-tag"> (lien affilié, nouvel onglet)</span></a></p></div>')
+
+
 def render_md(body: str) -> str:
+    body = PROD_RE.sub(lambda m: "\n\n" + product_card(m.group(1), m.group(2), m.group(3)) + "\n\n", body)
     body = AFF_RE.sub(lambda m: "\n\n" + amazon_link(m.group(1), m.group(2)) + "\n\n", body)
     return markdown.markdown(body, extensions=["extra", "sane_lists", "toc"],
                              extension_configs={"toc": {"permalink": False}})
 
 
-CSS_VERSION = "1"
+CSS_VERSION = "2"
 
 
 def page(title, description, path, content, *, kind="website", extra_head=""):
