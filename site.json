@@ -2,8 +2,8 @@
   "title": "Joue comme eux",
   "tagline": "Le matos des pros, expliqué simplement",
   "description": "Guides et conseils pour bien choisir son équipement de football : crampons, ballons, protège-tibias, gardien, entraînement.",
-  "url": "https://cyrilfoot.github.io",
-  "base_path": "/JoueCommeEux",
+  "url": "https://jouecommeeux.netlify.app",
+  "base_path": "",
   "lang": "fr",
   "author": "Cyril",
   "amazon_tag": ""
