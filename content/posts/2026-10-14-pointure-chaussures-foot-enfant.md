@@ -2,7 +2,6 @@
 title: "Chaussures de foot pour enfant : comment choisir la pointure ?"
 description: "Trop grandes, trop petites ? Mesure du pied, marge de croissance, scratch ou lacets : nos conseils pour choisir la bonne pointure de crampons pour votre enfant."
 categorie: Chaussures
-draft: true
 ---
 Acheter des crampons à un enfant, c'est souvent un casse-tête. Son pied grandit vite, il ne sait pas toujours dire si la chaussure le serre, et la tentation est grande de prendre « deux pointures au-dessus pour qu'elles durent ». Mauvaise idée : une chaussure de foot mal ajustée gêne le contrôle du ballon, provoque des ampoules et peut faire trébucher.
 
