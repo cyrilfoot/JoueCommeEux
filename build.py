@@ -115,10 +115,12 @@ def youtube_block(extra_cls="") -> str:
             f'</section>')
 
 
-CSS_VERSION = "3"
+CSS_VERSION = "4"
 
 
-def page(title, description, path, content, *, kind="website", extra_head=""):
+def page(title, description, path, content, *, kind="website", extra_head="", nav_tool=None):
+    if nav_tool is None:
+        nav_tool = SITE.get("comparateur") == "public"
     full_title = title if title == SITE["title"] else f"{title} | {SITE['title']}"
     return f"""<!doctype html>
 <html lang="{SITE['lang']}">
@@ -152,6 +154,7 @@ def page(title, description, path, content, *, kind="website", extra_head=""):
     <nav aria-label="Navigation principale">
       <ul>
         <li><a href="{url('')}">Guides</a></li>
+        {('<li><a href="' + url('comparateur/') + '">Trouver mon équipement</a></li>') if nav_tool else ''}
         <li><a href="{url('a-propos/')}">À propos</a></li>
       </ul>
     </nav>
@@ -301,6 +304,43 @@ def build():
         out.mkdir(parents=True, exist_ok=True)
         (out / "index.html").write_text(page(meta["title"], meta["description"], path, content), encoding="utf-8")
         urls.append((path, TODAY))
+
+    # Comparateur (site.json : "comparateur": "test" = page non indexée et non liée ; "public" = menu + sitemap)
+    mode = SITE.get("comparateur")
+    if mode in ("test", "public"):
+        shutil.copy(ROOT / "assets" / "comparateur.js", OUT / "comparateur.js")
+        path = "comparateur/"
+        test_banner = ('<p class="cmp-test" role="note"><strong>Version de test :</strong> cette page n\'est pas encore publiée '
+                       'ni référencée.</p>') if mode == "test" else ""
+        content = f"""<article class="wrap post cmp-page">
+  {test_banner}
+  <p class="crumbs"><a href="{url('')}">Guides</a> <span aria-hidden="true">/</span> Outil</p>
+  <h1>Trouver mon équipement</h1>
+  <p class="cmp-lede">Répondez à quelques questions : nous vous proposons jusqu'à trois modèles adaptés, choisis parmi une sélection vérifiée, avec leurs points forts et leurs limites.</p>
+  <aside class="disclosure" aria-label="Transparence"><strong>Transparence :</strong> les boutons Amazon sont des liens affiliés. Si vous achetez via ces liens, je touche une petite commission, sans surcoût pour vous. Aucun prix n'est affiché ici, car ils changent souvent. <a href="{url('affiliation/')}">En savoir plus</a>.</aside>
+  <div id="cmp-nojs" class="disclosure"><p>Cet outil a besoin de JavaScript. En attendant, nos guides vous aident à choisir : <a href="{url('articles/crampons-fg-ag-sg-tf-quel-terrain/')}">chaussures</a>, <a href="{url('articles/taille-ballon-foot-selon-age/')}">ballons</a> et <a href="{url('articles/choisir-protege-tibias/')}">protège-tibias</a>.</p></div>
+  <section id="cmp" class="cmp" data-site="{esc(SITE['url'].rstrip('/') + BASE if mode == 'test' else BASE)}" aria-label="Questionnaire" hidden>
+    <form class="cmp-form" novalidate>
+      <div class="cmp-step"></div>
+      <p id="cmp-err" class="cmp-err" role="alert"></p>
+      <div class="cmp-actions">
+        <button type="button" class="cmp-btn cmp-btn-ghost cmp-prev">Question précédente</button>
+        <button type="submit" class="cmp-btn cmp-next">Suivant</button>
+      </div>
+    </form>
+    <div class="cmp-res" aria-live="off" hidden></div>
+  </section>
+</article>"""
+        out = OUT / path
+        out.mkdir(parents=True, exist_ok=True)
+        extra = f'<script src="{url("comparateur.js")}?v={CSS_VERSION}" defer></script>'
+        if mode == "test":
+            extra = '<meta name="robots" content="noindex, nofollow">\n' + extra
+        (out / "index.html").write_text(page("Trouver mon équipement",
+            "Crampons, ballon ou protège-tibias : répondez à quelques questions et découvrez des modèles adaptés à l'âge, au niveau, au terrain et au budget.",
+            path, content, extra_head=extra, nav_tool=(mode == "public")), encoding="utf-8")
+        if mode == "public":
+            urls.append((path, TODAY))
 
     # 404
     nf = f"""<article class="wrap post"><h1>Page introuvable</h1>

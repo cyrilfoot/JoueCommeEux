@@ -136,3 +136,41 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 .yt-list li { margin: .35rem 0; }
 .yt-btn { display: inline-block; background: var(--accent); color: var(--accent-ink) !important; font-weight: 700; padding: .7rem 1.1rem; border-radius: 999px; text-decoration: none; }
 .yt-post { margin-top: 2.5rem; }
+
+/* Comparateur « Trouver mon équipement » */
+.cmp-test { background: var(--accent); color: var(--accent-ink); border-radius: 10px; padding: .6rem .9rem; margin: 0 0 1rem; font-size: .95rem; }
+.cmp-lede { font-size: 1.1rem; color: var(--ink-2); margin: 0 0 1.25rem; }
+.cmp { margin: 0 0 2rem; }
+.cmp-form { background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.25rem 1.1rem 1rem; }
+.cmp-fs { border: 0; margin: 0; padding: 0; min-width: 0; }
+.cmp-legend { padding: 0; margin: 0 0 1rem; }
+.cmp-count { display: block; margin-bottom: .25rem; font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--link); }
+.cmp-q { display: block; } .cmp-qt { display: block; font-size: clamp(1.3rem, 4vw, 1.6rem); font-weight: 800; line-height: 1.2; letter-spacing: -.01em; color: var(--ink); }
+.cmp-q:focus { outline: none; }
+.cmp-q:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.cmp-opts { display: grid; gap: .6rem; }
+.cmp-opt { display: flex; align-items: center; gap: .85rem; min-height: 56px; padding: .7rem 1rem; background: var(--paper); border: 2px solid var(--line); border-radius: 12px; cursor: pointer; font-weight: 600; }
+.cmp-opt input { width: 1.4rem; height: 1.4rem; flex: none; margin: 0; accent-color: var(--pitch-2); }
+.cmp-opt:has(input:checked) { border-color: var(--pitch-2); box-shadow: inset 0 0 0 1px var(--pitch-2); }
+.cmp-opt:has(input:focus-visible) { outline: 3px solid var(--accent); outline-offset: 2px; }
+.cmp-err { color: #a3261b; font-weight: 700; margin: .75rem 0 0; min-height: 1.2em; }
+:root[data-theme="dark"] .cmp-err { color: #ff9d8f; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .cmp-err { color: #ff9d8f; } }
+.cmp-actions { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin-top: 1rem; }
+.cmp-btn { font: inherit; font-weight: 800; min-height: 52px; padding: .75rem 1.4rem; border-radius: 999px; border: 2px solid var(--pitch-2); background: var(--pitch-2); color: var(--chalk); cursor: pointer; }
+.cmp-btn:hover { background: var(--pitch); }
+.cmp-btn-ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+.cmp-btn-ghost:hover { background: var(--paper); }
+.cmp-next { margin-left: auto; }
+.cmp-res h2 { font-size: 1.5rem; margin: 0 0 .5rem; }
+.cmp-res h2:focus { outline: none; }
+.cmp-recap { color: var(--ink-2); margin: 0 0 1rem; }
+.cmp-note { color: var(--ink-2); font-size: .95rem; }
+.cmp-list { list-style: none; margin: 0 0 1rem; padding: 0; }
+.cmp-prod { padding-bottom: .25rem; }
+.cmp-prod h3 { margin: 0 0 .5rem; }
+.cmp-prod p { margin: 0 0 .6rem; }
+.cmp-sub { font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--link); }
+.cmp-why { margin: 0 0 .75rem; padding-left: 1.2rem; }
+.cmp-why li { margin-bottom: .3rem; }
+@media (max-width: 420px) { .cmp-actions .cmp-btn { flex: 1 1 100%; } .cmp-next { margin-left: 0; order: -1; } }
