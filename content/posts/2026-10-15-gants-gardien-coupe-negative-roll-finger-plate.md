@@ -2,7 +2,6 @@
 title: "Gants de gardien : coupe négative, roll finger ou plate ?"
 description: "Coupe plate, négative, roll finger ou hybride : comprendre les coupes de gants de gardien pour choisir le bon modèle selon votre main, votre niveau, votre jeu."
 categorie: Gardien de but
-draft: true
 ---
 Quand on cherche des gants de gardien, on tombe vite sur un vocabulaire déroutant : « coupe négative », « roll finger », « flat », « hybride »… Ces mots désignent la **coupe** du gant, c'est-à-dire la façon dont la paume et les doigts sont assemblés. Ce détail change beaucoup de choses : le maintien, la sensation au contact du ballon et la surface de prise.
 
