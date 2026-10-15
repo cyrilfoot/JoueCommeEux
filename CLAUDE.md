@@ -8,6 +8,7 @@ Blog d'affiliation sur l'équipement de football, édité par Cyril. Cyril utili
 - Fiche produit (format principal) : `[[produit: Nom du modèle | recherche Amazon exacte OU lien https://www.amazon.fr/.../dp/ASIN | Pourquoi ce choix, 1 à 2 phrases]]`. Affiche une carte produit avec un bouton « Voir le prix sur Amazon ». Un lien amazon.fr/dp/ est nettoyé et reçoit automatiquement le tag.
 - Lien affilié simple : `[[amazon: mots-clés de recherche | Texte du bouton]]` (recherche Amazon.fr).
 - Le tag Amazon (`jouecommeeux-21`) est défini dans `site.json` (`amazon_tag`) et ajouté à tous les liens.
+- Encart « Découvrez Histoire de Foot » (accueil + bas des articles) : renseigner dans `site.json` `youtube_url` (lien de la chaîne) et `youtube_shorts` (liste de `{"titre", "url"}`, 3 à 5 Shorts). Sans `youtube_url`, l'encart n'apparaît pas.
 - Commits : auteur `cyrilfoot <cyrilfoot@users.noreply.github.com>`.
 
 ## Article quotidien : procédure

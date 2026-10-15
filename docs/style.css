@@ -126,3 +126,13 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 @media (prefers-reduced-motion: no-preference) {
   .aff-btn { transition: filter .15s ease; }
 }
+
+/* Encart chaîne YouTube */
+.yt { margin: 0 0 3rem; padding: 1.5rem; background: var(--pitch); color: var(--chalk); border-radius: var(--radius); }
+.yt h2 { margin: 0 0 .5rem; font-size: 1.25rem; }
+.yt p { margin: 0 0 1rem; }
+.yt a { color: var(--chalk); }
+.yt-list { margin: 0 0 1rem; padding-left: 1.2rem; }
+.yt-list li { margin: .35rem 0; }
+.yt-btn { display: inline-block; background: var(--accent); color: var(--accent-ink) !important; font-weight: 700; padding: .7rem 1.1rem; border-radius: 999px; text-decoration: none; }
+.yt-post { margin-top: 2.5rem; }

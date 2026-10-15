@@ -94,7 +94,28 @@ def render_md(body: str) -> str:
                              extension_configs={"toc": {"permalink": False}})
 
 
-CSS_VERSION = "2"
+def youtube_block(extra_cls="") -> str:
+    """Encart « Découvrez Histoire de Foot » (vide si youtube_url absent de site.json)."""
+    yt = SITE.get("youtube_url")
+    if not yt:
+        return ""
+    name = SITE.get("youtube_name", "Histoire de Foot")
+    shorts = "".join(
+        f'<li><a href="{esc(s["url"])}" rel="noopener" target="_blank">{esc(s["titre"])}'
+        f'<span class="aff-tag"> (YouTube, nouvel onglet)</span></a></li>'
+        for s in SITE.get("youtube_shorts", []))
+    shorts = f'<ul class="yt-list">{shorts}</ul>' if shorts else ""
+    return (f'<section class="yt {extra_cls}" aria-labelledby="yt-h">'
+            f'<h2 id="yt-h">Découvrez {esc(name)}</h2>'
+            f'<p>Sur ma chaîne YouTube, je raconte les histoires des hommes derrière les joueurs : '
+            f'les sacrifices, les mentors, les familles. Quelques Shorts pour commencer :</p>'
+            f'{shorts}'
+            f'<p><a class="yt-btn" href="{esc(yt)}" rel="noopener" target="_blank">'
+            f'Voir la chaîne {esc(name)}<span class="aff-tag"> (YouTube, nouvel onglet)</span></a></p>'
+            f'</section>')
+
+
+CSS_VERSION = "3"
 
 
 def page(title, description, path, content, *, kind="website", extra_head=""):
@@ -231,6 +252,7 @@ def build():
 {html_body}
   </div>
   {more}
+  {youtube_block("yt-post")}
 </article>"""
         out = OUT / path
         out.mkdir(parents=True, exist_ok=True)
@@ -261,7 +283,8 @@ def build():
   <ul class="cards">
 {''.join(cards) if cards else '<li>Les premiers guides arrivent très bientôt.</li>'}
   </ul>
-</section>"""
+</section>
+<div class="wrap">{youtube_block()}</div>"""
     (OUT / "index.html").write_text(page(SITE["title"], SITE["description"], "", home), encoding="utf-8")
 
     # Pages fixes
