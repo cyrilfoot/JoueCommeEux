@@ -9,6 +9,8 @@ Blog d'affiliation sur l'équipement de football, édité par Cyril. Cyril utili
 - Lien affilié simple : `[[amazon: mots-clés de recherche | Texte du bouton]]` (recherche Amazon.fr).
 - Le tag Amazon (`jouecommeeux-21`) est défini dans `site.json` (`amazon_tag`) et ajouté à tous les liens.
 - Encart « Découvrez Histoire de Foot » (accueil + bas des articles) : renseigner dans `site.json` `youtube_url` (lien de la chaîne) et `youtube_shorts` (liste de `{"titre", "url"}`, 3 à 6 Shorts). Sans `youtube_url`, l'encart n'apparaît pas.
+- Comparateur « Trouver mon équipement » : page `/comparateur/`, données et règles dans `assets/comparateur.js` (liste `P`, produits vérifiés, sans prix). `site.json` `comparateur` : `public` (menu, bouton d'accueil, sitemap) ou `test` (page non indexée, non liée). La politique de sécurité (`netlify.toml`) autorise uniquement les scripts du site (`script-src 'self'`).
+- Sauvegarde du site avant le comparateur : branche `sauvegarde-avant-comparateur`.
 - Commits : auteur `cyrilfoot <cyrilfoot@users.noreply.github.com>`.
 
 ## Article quotidien : procédure

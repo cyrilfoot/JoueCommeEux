@@ -174,3 +174,8 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 .cmp-why { margin: 0 0 .75rem; padding-left: 1.2rem; }
 .cmp-why li { margin-bottom: .3rem; }
 @media (max-width: 420px) { .cmp-actions .cmp-btn { flex: 1 1 100%; } .cmp-next { margin-left: 0; order: -1; } }
+.hero-cta { margin: 1.5rem 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; }
+.hero-btn { display: inline-flex; align-items: center; min-height: 52px; padding: .8rem 1.4rem; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font-weight: 800; text-decoration: none; box-shadow: 0 2px 0 rgba(0,0,0,.18); }
+.hero-btn:hover { filter: brightness(1.05); text-decoration: underline; }
+.hero-cta-note { font-size: .95rem; opacity: .92; }
+.top nav ul { row-gap: 0; column-gap: 1.25rem; }

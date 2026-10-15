@@ -279,6 +279,7 @@ def build():
     <p class="kicker">Équipement de football</p>
     <h1>Derrière chaque grand joueur, il y a les bons choix.</h1>
     <p class="lede">Crampons, ballons, protège-tibias, matériel d'entraînement : des guides clairs pour bien choisir son équipement, quel que soit son niveau.</p>
+    {('<p class="hero-cta"><a class="hero-btn" href="' + url('comparateur/') + '">Trouver mon équipement</a> <span class="hero-cta-note">Quelques questions, jusqu&#39;à trois modèles adaptés.</span></p>') if SITE.get("comparateur") == "public" else ''}
   </div>
 </section>
 <section class="wrap list" aria-labelledby="derniers">
