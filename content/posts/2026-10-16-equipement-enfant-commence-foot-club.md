@@ -2,7 +2,6 @@
 title: "Quel équipement pour un enfant qui commence le foot en club ?"
 description: "Crampons, protège-tibias, chaussettes, sac, gourde : la liste simple de l'équipement à prévoir quand votre enfant s'inscrit pour la première fois dans un club."
 categorie: Débuter
-draft: true
 ---
 Votre enfant vient de s'inscrire dans un club de foot, et la première séance approche. Bonne nouvelle : pour débuter, il n'a pas besoin de grand-chose. Mais quelques éléments sont indispensables, et d'autres vous éviteront bien des oublis le samedi matin.
 
