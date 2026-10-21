@@ -2,7 +2,6 @@
 title: "Sac de sport de foot : que mettre dedans ? La liste complète"
 description: "Crampons, protège-tibias, gourde, affaires de douche, tenue de pluie : la liste simple pour préparer son sac de foot et bien choisir le sac qui va avec."
 categorie: Accessoires
-draft: true
 ---
 Arriver au stade et se rendre compte qu'il manque les protège-tibias, tout le monde l'a vécu au moins une fois. Un sac de foot bien préparé évite ce genre de mauvaise surprise et vous fait gagner du temps avant chaque match ou entraînement.
 
