@@ -2,7 +2,6 @@
 title: "Ballon de futsal : quelles différences avec un ballon de foot classique ?"
 description: "Plus petit, plus lourd et qui rebondit peu : découvrez ce qui distingue un ballon de futsal d'un ballon classique, et comment bien choisir le vôtre en salle."
 categorie: Ballons
-draft: true
 ---
 Vous commencez le futsal, ou votre enfant s'est inscrit dans un club de foot en salle ? Une question revient vite : peut-on jouer avec un ballon de foot normal ? La réponse est non, ou du moins pas dans de bonnes conditions. Le ballon de futsal a été conçu pour un jeu rapide, au sol, sur une surface dure. Il ne ressemble à un ballon classique qu'en apparence.
 
