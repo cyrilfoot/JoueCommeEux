@@ -2,7 +2,6 @@
 title: "Maillot de foot authentique ou réplique : quelles différences ?"
 description: "Version joueur ou version supporter : tissu, coupe, logos, usage. Tout ce qui distingue un maillot de foot authentique d'une réplique, pour bien choisir."
 categorie: Tenue
-draft: true
 ---
 Vous voulez offrir le maillot de votre club préféré, ou en porter un vous-même ? En boutique, vous tombez vite sur deux versions du même maillot : une version « authentique », parfois appelée « Match » ou « joueur », et une version « réplique », souvent appelée « Stadium » ou « supporter ». Elles se ressemblent beaucoup, mais elles ne sont pas faites pour le même usage.
 
