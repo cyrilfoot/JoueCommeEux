@@ -2,7 +2,6 @@
 title: "Sous-vêtements thermiques pour jouer au foot l'hiver : comment choisir"
 description: "Sous-maillot, collant, compression ou thermique : comment rester au chaud sur le terrain en hiver, ce que disent les règles et quels modèles choisir pour jouer."
 categorie: Tenue
-draft: true
 ---
 Entre novembre et mars, les entraînements du soir et les matchs du dimanche matin se jouent souvent dans le froid, parfois sous la pluie. Rester au chaud sans être gêné dans ses mouvements devient alors un vrai sujet. La solution la plus simple, et celle des joueurs professionnels, tient en deux pièces : un sous-maillot thermique et un collant.
 
