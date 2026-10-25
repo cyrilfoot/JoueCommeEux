@@ -2,7 +2,6 @@
 title: "Chaussures de futsal : comment bien les choisir ?"
 description: "Semelle, accroche, amorti, tige et taille : nos conseils pour choisir des chaussures de futsal adaptées au jeu en salle, pour adultes comme pour les enfants."
 categorie: Chaussures
-draft: true
 ---
 Le futsal se joue sur un sol dur et lisse, avec beaucoup de changements de direction, de contrôles semelle et de démarrages rapides. Des crampons n'ont rien à y faire, et une simple paire de baskets montre vite ses limites. Les chaussures de futsal sont conçues pour ce jeu-là : elles accrochent le parquet, protègent le pied et laissent sentir le ballon.
 
