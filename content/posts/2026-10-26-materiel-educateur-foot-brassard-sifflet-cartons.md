@@ -2,7 +2,6 @@
 title: "Brassard, sifflet, cartons : le matériel de l'éducateur de foot"
 description: "Sifflet, brassard de capitaine, cartons, carnet : le petit matériel essentiel pour encadrer une équipe ou arbitrer un match de jeunes, et comment le choisir."
 categorie: Accessoires
-draft: true
 ---
 Vous venez de prendre en main une équipe de jeunes, vous dépannez comme arbitre bénévole le samedi, ou vous organisez des matchs entre amis ? Avant même les plots et les ballons, quelques petits accessoires changent tout : un bon sifflet, un brassard de capitaine, des cartons et de quoi noter le score.
 
