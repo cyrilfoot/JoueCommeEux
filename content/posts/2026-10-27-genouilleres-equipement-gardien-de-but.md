@@ -2,7 +2,6 @@
 title: "Genouillères et équipement de gardien de but : comment se protéger"
 description: "Pantalon rembourré, short de protection, genouillères : l'équipement qui protège le gardien à chaque plongeon, et comment le choisir selon son terrain."
 categorie: Gardien de but
-draft: true
 ---
 Le gardien de but est le seul joueur qui passe son match à se jeter au sol. Plongeons, sorties dans les pieds, réceptions sur le côté : les hanches, les cuisses, les genoux et les coudes encaissent des chocs à répétition. Sur un terrain synthétique ou en salle, s'ajoutent les brûlures et les écorchures.
 
