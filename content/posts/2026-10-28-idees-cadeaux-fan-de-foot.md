@@ -2,7 +2,6 @@
 title: "Idées cadeaux pour un fan de foot : comment viser juste"
 description: "Ballon, maillot, album Panini, matériel pour progresser : nos idées de cadeaux pour un fan de foot, enfant ou adulte, et comment choisir selon son profil."
 categorie: Accessoires
-draft: true
 ---
 Offrir un cadeau à un fan de foot paraît simple. En pratique, c'est un peu plus délicat : il a peut-être déjà le maillot de son club, il joue peut-être à un poste précis, ou il préfère regarder les matchs plutôt que de les jouer. Un cadeau réussi part toujours de la même question : quel genre de fan avez-vous en face de vous ?
 
