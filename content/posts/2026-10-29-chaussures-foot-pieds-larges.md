@@ -2,7 +2,6 @@
 title: "Chaussures de foot pour pieds larges : comment bien choisir ?"
 description: "Pied large ou cou-de-pied haut ? Matières, versions Wide, laçage, pointure : nos conseils pour trouver des chaussures confortables sans perdre en maintien."
 categorie: Chaussures
-draft: true
 ---
 Beaucoup de joueurs le découvrent dès le premier essayage : la chaussure semble à la bonne pointure, mais elle serre sur les côtés, appuie sur le petit orteil ou comprime le dessus du pied. Après une heure de match, la douleur prend le dessus sur le jeu.
 
