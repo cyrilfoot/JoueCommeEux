@@ -2,7 +2,6 @@
 title: "Chaussures de foot sans lacets ou à scratch : pour qui ?"
 description: "Sans lacets, à scratch ou à lacets classiques : avantages, limites et conseils pour choisir des chaussures de foot adaptées à l'âge et au pied du joueur."
 categorie: Chaussures
-draft: true
 ---
 Au bord du terrain, la scène est connue : un enfant qui revient en courant parce que ses lacets sont défaits, et un éducateur qui passe la moitié de l'échauffement à faire des doubles nœuds. Pour éviter cela, les marques proposent deux alternatives aux lacets classiques : les chaussures **à scratch** pour les plus jeunes, et les chaussures **sans lacets** (souvent appelées « laceless ») pour les joueurs plus grands.
 
