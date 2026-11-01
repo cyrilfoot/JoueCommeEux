@@ -2,7 +2,6 @@
 title: "Survêtement de foot : comment bien le choisir ?"
 description: "Matière, coupe, taille, poches, version hiver : nos conseils pour choisir un survêtement de foot adapté à l'entraînement, à l'enfant comme à l'adulte."
 categorie: Tenue
-draft: true
 ---
 Avec l'automne, les entraînements se déroulent dans le froid, parfois sous la pluie, et souvent à la tombée de la nuit. Le survêtement redevient alors la pièce la plus portée du sac de foot : pour l'échauffement, pour les exercices à faible intensité, pour le trajet et pour patienter sur le banc.
 
