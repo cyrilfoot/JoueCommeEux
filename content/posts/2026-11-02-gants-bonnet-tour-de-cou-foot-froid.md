@@ -2,7 +2,6 @@
 title: "Gants, bonnet, tour de cou : jouer au foot quand il fait froid"
 description: "Gants de joueur, bonnet, tour de cou : ce qui garde vraiment au chaud, ce que permettent les règles en match et comment bien les choisir pour cet hiver."
 categorie: Tenue
-draft: true
 ---
 Novembre arrive, et avec lui les entraînements à 5 °C, les mains rougies et les oreilles glacées. Le haut du corps se protège bien avec un sous-maillot thermique, mais les extrémités restent souvent oubliées. Or ce sont elles qui refroidissent le plus vite : des doigts engourdis, c'est une touche ratée ou un lacet impossible à refaire.
 
