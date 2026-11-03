@@ -2,7 +2,6 @@
 title: "Ballon de foot d'entraînement ou de match : quelles différences ?"
 description: "Ballon d'entraînement ou de match : construction, vessie, labels FIFA et usage. Tout pour choisir le bon ballon de foot selon votre pratique et votre terrain."
 categorie: Ballons
-draft: true
 ---
 Dans un magasin de sport, deux ballons de taille 5 peuvent se ressembler comme deux gouttes d'eau. Pourtant, l'un est fait pour encaisser des centaines de frappes contre un mur, l'autre pour offrir un toucher précis le dimanche en match. Leur construction, leurs matériaux et leurs labels ne sont pas les mêmes.
 
