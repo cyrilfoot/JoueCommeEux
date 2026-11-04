@@ -2,7 +2,6 @@
 title: "Comment gonfler un ballon de foot : pression, pompe et aiguille"
 description: "Quelle pression pour un ballon de foot, comment gonfler sans abîmer la valve et quelle pompe choisir : le guide pratique pour un ballon toujours prêt à jouer."
 categorie: Ballons
-draft: true
 ---
 Un ballon trop mou fatigue les jambes et rend les passes imprécises. Un ballon trop dur fait mal aux pieds, rebondit dans tous les sens et s'use plus vite. Entre les deux, il y a la bonne pression. Et pour l'obtenir, il suffit d'une pompe, d'une aiguille et de deux minutes.
 
