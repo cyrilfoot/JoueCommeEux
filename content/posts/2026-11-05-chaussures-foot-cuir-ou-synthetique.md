@@ -2,7 +2,6 @@
 title: "Chaussures de foot en cuir ou synthétique : que choisir ?"
 description: "Cuir ou synthétique : confort, toucher de balle, pluie, entretien, durée de vie. Nos repères pour choisir la matière de vos chaussures de foot selon votre jeu."
 categorie: Chaussures
-draft: true
 ---
 Au moment d'acheter une paire de crampons, on regarde la semelle, la couleur, parfois le joueur qui la porte. Mais on oublie souvent une question qui change beaucoup de choses : de quoi est faite la tige, c'est-à-dire tout le dessus de la chaussure ? Cuir ou synthétique, les deux matières ne se portent pas, ne vieillissent pas et ne s'entretiennent pas de la même façon.
 
