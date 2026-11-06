@@ -2,7 +2,6 @@
 title: "Rebounder de foot : bien choisir son filet ou mur de rebond"
 description: "Filet ou planche de rebond : à quoi sert un rebounder de foot, quelle taille choisir selon l'âge et l'espace, et comment l'utiliser pour progresser seul."
 categorie: Entraînement
-draft: true
 ---
 Pour progresser au foot, il faut toucher le ballon. Beaucoup. Le problème, c'est qu'on n'a pas toujours un partenaire sous la main pour faire des passes. C'est là qu'intervient le rebounder, aussi appelé filet de rebond ou rebondisseur : il vous renvoie le ballon à chaque frappe, comme un coéquipier qui ne se fatigue jamais.
 
