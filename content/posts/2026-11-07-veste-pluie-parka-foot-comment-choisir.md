@@ -2,7 +2,6 @@
 title: "Veste de pluie, coupe-vent ou parka de foot : que choisir ?"
 description: "Veste de pluie, coupe-vent ou parka de stade : à quoi sert chaque vêtement au foot, comment choisir la bonne taille et quels modèles prendre pour l'hiver."
 categorie: Équipement
-draft: true
 ---
 En novembre, les entraînements se font souvent sous la pluie, dans le vent et dans le froid. Pendant le jeu, on se réchauffe vite. Mais avant le coup d'envoi, à la mi-temps, sur le banc ou au bord du terrain quand on accompagne son enfant, c'est une autre histoire. Un bon vêtement de pluie fait alors toute la différence.
 
