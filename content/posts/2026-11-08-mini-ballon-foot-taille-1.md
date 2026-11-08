@@ -2,7 +2,6 @@
 title: "Mini-ballon de foot taille 1 : à quoi ça sert et comment l'utiliser"
 description: "Mini-ballon de foot taille 1 : sa taille, son intérêt pour le jonglage et la technique, les exercices à faire à la maison et les modèles à choisir pour débuter."
 categorie: Ballons
-draft: true
 ---
 Il tient dans une main, se glisse dans un sac et coûte moins cher qu'un ballon de match. Le mini-ballon de foot, aussi appelé ballon taille 1 ou « skills ball », est souvent vu comme un simple objet souvenir. C'est pourtant un vrai outil pour travailler la technique, à tout âge.
 
